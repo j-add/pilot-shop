@@ -6,3 +6,27 @@ html {
 	font-size: 62.5%;
 }
 
+nav {
+}
+
+.userNavbar {
+	color: #a2a2a2;
+	background-color: #f8f8f8;
+	display: flex;
+	justify-content: space-between;
+}
+
+.userNavbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navLeft {
+}
+
+.navRight {
+}
+
+header {
+	
+}
