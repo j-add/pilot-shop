@@ -30,7 +30,7 @@ nav {
 header {
 }
 
-heroImage {
+.heroImage {
 	min-height: 80%;
 	background-image: url("main-slide.webp");
 	background-size: cover;
