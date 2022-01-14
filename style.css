@@ -35,3 +35,26 @@ header {
 	background-image: url("main-slide.webp");
 	background-size: cover;
 }
+
+.carouselBar {
+	position: relative;
+}
+
+.carouselContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 15px;
+}
+
+.carouselBox1 {
+	background-color: #000000;
+}
+
+.carouselBox2 {
+	background-color: #000000;
+}
+
+.carouselBox3 {
+	background-color: #000000;
+}
+
