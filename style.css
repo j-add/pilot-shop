@@ -9,20 +9,24 @@ html {
 nav {
 	padding: 0 20%;
 	width: 100vw;
+	background-color: #f8f8f8;
 }
 
 .userNavbar {
 	color: #a2a2a2;
-	background-color: #f8f8f8;
 	display: flex;
 	justify-content: space-between;
+	align-items: baseline;
 	text-transform: uppercase;
+	padding: 10px 0;
 }
 
 .userNavbar a {
 	color: #a2a2a2;
 	text-decoration: none;
 	font-weight: 800;
+	font-size: 1.6rem;
+	padding: 10px 10px;
 }
 
 .navSearch {
