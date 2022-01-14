@@ -76,3 +76,13 @@ main {
 	align-items: center;
 	gap: 10px;
 }
+
+footer {
+}
+
+.contactBtnFixed {
+	color: #ffffff;
+	background-color: #5ba0d0;
+	padding: 15px 10px;
+	border-radius: 6px;
+}
