@@ -11,9 +11,7 @@ body {
 }
 
 nav {
-	padding: 0 10%;
 	width: 100vw;
-	background-color: #f8f8f8;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -21,12 +19,14 @@ nav {
 
 .userNavbar {
 	color: #a2a2a2;
+	background-color: #f8f8f8;
 	display: flex;
 	justify-content: space-between;
 	/* align-items: baseline; */
 	align-content: center;
 	text-transform: uppercase;
-	padding: 10px 0;
+	padding: 10px 10%;
+	width: 100%;
 }
 
 .userNavbar a {
@@ -75,6 +75,11 @@ nav {
 	font-family: Ubuntu, Helvetica, sans-serif;
 }
 
+.searchSubmit {
+	color: #a2a2a2;
+	border: none;
+	background: transparent;
+}
 
 .searchSubmit:hover {
 	color: #589ec2;
@@ -84,6 +89,9 @@ nav {
 .pilotNavbar {
 	display: flex;
 	justify-content: space-between;
+	background-color: #ffffff;
+	width: 100%;
+	padding: 10px 10%;
 }
 
 .navLeft {
