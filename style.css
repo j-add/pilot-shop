@@ -6,8 +6,12 @@ html {
 	font-size: 62.5%;
 }
 
+body {
+	font-family: Ubuntu, Helvetica, sans-serif;
+}
+
 nav {
-	padding: 0 20%;
+	padding: 0 10%;
 	width: 100vw;
 	background-color: #f8f8f8;
 }
@@ -16,7 +20,8 @@ nav {
 	color: #a2a2a2;
 	display: flex;
 	justify-content: space-between;
-	align-items: baseline;
+	/* align-items: baseline; */
+	align-content: center;
 	text-transform: uppercase;
 	padding: 10px 0;
 }
@@ -25,12 +30,41 @@ nav {
 	color: #a2a2a2;
 	text-decoration: none;
 	font-weight: 800;
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	padding: 10px 10px;
 }
 
+.userNavbar a:hover {
+	color: #589ec2;
+}
+
+.navLBorder {
+	border-left: 1px solid rgba(0,0,0,.2);
+}
+
 .navSearch {
-	display: inline-block;
+	display: inline-flex;
+	align-content: center;
+	margin-bottom: 0;
+	padding-left: 5px;
+}
+
+.navSearch input {
+	padding: 10px;
+	background: transparent;
+	border: none;
+	font: bold 1.4rem Ubuntu, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+.navSearch input::placeholder {
+	color: #a2a2a2;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 1.4rem;
+	padding: 10px 10px;
+	opacity: 1;
+	font-family: Ubuntu, Helvetica, sans-serif;
 }
 
 .pilotNavbar {
@@ -39,9 +73,13 @@ nav {
 }
 
 .navLeft {
+	display: flex;
+	align-items: center;
 }
 
 .navRight {
+	display: flex;
+	align-items: center;
 }
 
 header {
