@@ -106,12 +106,60 @@ nav {
 
 header {
 	margin-top: 56.9px;
+	height: 100vh;
+	min-height: 800px;
+	width: 100%;
 }
 
 .heroImage {
-	min-height: 80%;
+	height: 89%;
+	width: 100%;
 	background-image: url("main-slide.webp");
 	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.sliderContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.sliderContent h1 {
+	font-size: 7.4rem;
+	font-weight: 500;
+	letter-spacing: 1.2rem;
+	margin: 0;
+}
+
+.sliderContent p {
+	font-size: 1.9rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+	margin: 0;
+}
+
+.sliderBtn {
+	font-size: 1.6rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+	color: #ffffff;
+	text-decoration: none;
+	margin-top: 40px;
+	padding: 10px;
+	border: 2px solid #ffffff;
+}
+
+.sliderBtn:hover {
+	background-color: #589ec2;
+	border: 2px solid #589ec2;
 }
 
 .carouselBar {
